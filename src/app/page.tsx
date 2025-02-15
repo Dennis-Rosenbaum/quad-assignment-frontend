@@ -83,10 +83,6 @@ export default function Home() {
     return doc.documentElement.textContent
   }
 
-  useEffect(() => {
-    fetchQuestion()
-  }, [])
-
   if (!question)
     return <div>
       Loading questions...
