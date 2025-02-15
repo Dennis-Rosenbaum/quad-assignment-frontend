@@ -4,8 +4,9 @@ Are you in for a lovely game of trivia, please do so [https://witty-pebble-07916
 ## Start the application
 1. Clone this project to your local machine
 2. Add a `.env.development` file with this content below
-3. Start the project with `npm run dev`
-4. In the browser, navigate to http://localhost:3200
+3. Install dependencies by executing `npm install`, this can take a while
+4. Start the project with `npm run dev`
+5. In the browser, navigate to http://localhost:3200
 
 ## .env.development
  ```
