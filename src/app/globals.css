@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #ffffff;
+  --background: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #0a0a0a;
+    --background: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Lucida Sans Typewriter";
+  padding: 24px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.question {
+  margin-top: 24px;
+  padding: 24px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.answer {
+  padding: 24px;
+}
+.answer:hover { 
+  background-color: #AAA;
+  cursor: pointer;
+}
+.answer.correct {
+  transition: background-color 3s ease, border-color 3s ease;
+  border: 3px solid #2cd426;
+  background-color: #97f294;
+}
+.answer.incorrect {
+  transition: background-color 3s ease, border-color 3s ease;
+  border: 3px solid #f00;
+  background-color: #f5a19d
+}
