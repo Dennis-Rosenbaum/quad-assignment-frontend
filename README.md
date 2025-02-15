@@ -1,4 +1,5 @@
 # Welcome to the assignment of Dennis Rosenbaum
+Are you in for a lovely game of trivia, please do so [https://witty-pebble-079160903.4.azurestaticapps.net/](https://witty-pebble-079160903.4.azurestaticapps.net/)
 
 ## Start the application
 1. Clone this project to your local machine
